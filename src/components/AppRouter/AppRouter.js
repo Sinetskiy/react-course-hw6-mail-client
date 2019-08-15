@@ -19,7 +19,6 @@ import OutboxList from "../OutboxList";
 import OutboxMail from "../OutboxMail";
 
 const AppRouter = (props) => {
-    console.log(props);
     const {match} = props;
     return <div className={styles.wrapper}>
         <div className={styles.container}>
